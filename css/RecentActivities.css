@@ -1,0 +1,88 @@
+
+.activityBoxContainer {
+
+  
+    width: 100%;
+
+
+
+  }
+
+
+  .activityBox {
+
+    height: 235px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+  }
+
+
+  
+  .iconBox {
+
+
+    height: 70px;
+    width: 70px;
+    background-color: var(--purple) ;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px lightslategrey;
+    position: absolute;
+    top: -35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+  }
+
+  .iconBox img {
+
+    width: 80%;
+    background-color: #2322BD ;
+
+  }
+
+  .activityTitle {
+
+    position: absolute;
+    top: 55px;
+    font-size: 18px;
+    color: #5554E2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    
+}
+    
+    
+.activityText {
+    
+    position: absolute;
+    top: 90px;
+    font-size: 14px;
+    color: #6C6C6C;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    line-height: 2;
+    white-space: pre-line;
+    font-weight: bold;
+    
+ }
+    
+ .sleepText {
+
+    position: absolute;
+    top: 120px;
+    font-size: 20px;
+    color: #6C6C6C;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: bold;
+
+
+ }
